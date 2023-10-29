@@ -1,6 +1,10 @@
+<script>
+    import { base } from '$app/paths';
+</script>
+
 <nav class="mainNav">
-	<div class="navItem"><a href="/">Versio 1</a><span> Double perlin pass</span></div>
-	<div class="navItem"><a href="/simplex">Versio 2</a><span>Noise simplex test with (angle + PI) * dSquared / 4 / PI</span></div>
+	<div class="navItem"><a href="{base}/">Versio 1</a><span> Double perlin pass</span></div>
+	<div class="navItem"><a href="{base}/simplex">Versio 2</a><span>Noise simplex test with (angle + PI) * dSquared / 4 / PI</span></div>
 </nav>
 
 <slot></slot>
