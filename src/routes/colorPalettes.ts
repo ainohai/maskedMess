@@ -17,7 +17,7 @@ export const getScheme = (): {
   const variation = "default"
 
 
-  const scheme = new ColorScheme();
+  const scheme = new ColorScheme;
   scheme.from_hue(Math.floor(Math.random()* 359)).scheme(paletteScheme);
   scheme.variation(variation);
 
