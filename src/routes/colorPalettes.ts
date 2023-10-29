@@ -27,7 +27,7 @@ export const getScheme = (): {
   console.log(variation);
   console.log(colors);
 
-  const rgbs = colors.map((color) => hexRgb(color));
+  const rgbs = colors.map((color: any) => hexRgb(color));
 
   return rgbs.map((rgba: RgbaObject) => ({
     r: rgba.red,
