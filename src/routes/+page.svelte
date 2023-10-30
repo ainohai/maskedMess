@@ -67,16 +67,6 @@
 
 
 <style>
-    @import 'milligram/dist/milligram.min.css';
-
-	:global(html){
-		font-size: 10px;
-	}
-	:global(body){
-		margin-right: 1.5rem;
-		background-color: #383838;
-	}
-
 	.sketch {
 		display: inline-block;
 		position:absolute;
