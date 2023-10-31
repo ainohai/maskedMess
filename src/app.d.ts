@@ -7,8 +7,10 @@ declare global {
 		// interface PageData {}
 		// interface Platform {}
 	}
+
+	declare module 'color-scheme';
+    declare module 'worley-noise';
 }
 
-declare module 'color-scheme';
 
 export {};

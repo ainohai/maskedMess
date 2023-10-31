@@ -28,6 +28,7 @@
 		"eslint": "^8.28.0",
 		"eslint-config-prettier": "^8.5.0",
 		"eslint-plugin-svelte": "^2.30.0",
+		"fractal-noise": "^2.1.0",
 		"hex-rgb": "^5.0.0",
 		"install": "^0.13.0",
 		"milligram": "^1.4.1",
@@ -41,7 +42,8 @@
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2",
-		"vitest": "^0.32.2"
+		"vitest": "^0.32.2",
+		"worley-noise": "^2.0.1"
 	},
 	"type": "module",
 	"dependencies": {

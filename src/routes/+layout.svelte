@@ -2,12 +2,13 @@
 	import { base } from '$app/paths';
 </script>
 
-<nav class="mainNav">
-	<div class="navItem"><a href="{base}/">Versio 1</a><span> Double perlin pass</span></div>
+<nav class="rightCol">
+	<div class="navItem"><a href="{base}/">Versio 1</a><span> Double perlin noise</span></div>
 	<div class="navItem">
-		<a href="{base}/simplex">Versio 2</a><span
-			>Noise simplex test with (angle + PI) * dSquared / 4 / PI</span
-		>
+		<a href="{base}/simplex">Versio 2</a><span> Noise simplex test with (angle + PI) * dSquared / 4 / PI</span>
+	</div>
+	<div class="navItem">
+		<a href="{base}/warped">Versio 3</a><span> Warped tangents</span>
 	</div>
 </nav>
 
@@ -22,16 +23,31 @@
 	:global(body) {
 		margin-right: 1.5rem;
 		background-color: #383838;
+		min-height: 800px;
 	}
 	a {
 		display: block;
 	}
-	.mainNav {
+	:global(.rightCol) {
 		display: block;
 		float: right;
+		width: 50%;
+		min-width: 600px;
+	}
+	:global(.sketch) {
+		display: inline-block;
+		position:absolute;
+		top:0;
+		margin: 24px 12px;
+	}
+	:global(.sketchWrap) {
+		min-height: 750px;
+		width: 700px;
+		display: block;
+		float:left;
 	}
 	.navItem {
-		display: inline-block;
+		display: block;
 		margin: 1rem;
 	}
 </style>

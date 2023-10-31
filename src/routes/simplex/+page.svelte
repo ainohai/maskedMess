@@ -59,7 +59,7 @@
 </div>
 
 
-<div style="margin:0rem 2rem; float: right">
+<div class="rightCol">
     <button on:click={() => createSketches()}>Piirrä uudestaan</button>
 </div>
 
@@ -75,8 +75,9 @@
 		margin: 24px 12px;
 	}
 	.sketchWrap {
-		min-height: 250px;
+		min-height: 750px;
 		width: 700px;
-		display: inline-block;
+		display: block;
+		float:left;
 	}
 </style>
